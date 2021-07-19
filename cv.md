@@ -39,6 +39,27 @@
 * 2015 divers - lifeguard training course, Belarusian State Water Rescue Society 
 * 2014 snowboard instructor training course level С, Druskininkai Lithuania. 
 
+## Code example:
+
+
+```
+function lifePathNumber(dateOfBirth) {
+  var num = dateOfBirth.split("-").join("");
+  
+  do{
+    num = (""+num).split("").reduce((p,c) => +p+ +c);
+  }while(num > 9);
+  
+  return num;
+}
+```
+
+```
+function maxNumber(n){
+ return Number(n.toString().split('').sort((a, b) => b - a).join(''))
+}
+```
+
 
 ## Work experience: 
 * January 2020 - until nowadays, KindGeek - Front End Developer
