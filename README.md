@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://IgorKankov.github.io/rsschool-cv/cvgithub-username
+https://IgorKankov.github.io/rsschool-cv/cv

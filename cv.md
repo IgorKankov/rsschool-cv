@@ -76,8 +76,8 @@ function maxNumber(n){
 * **Character traits:** 
     * easy to train
     * non-conflicting
-    *executive, communicative
-    *well get along with the team. 
+    * executive, communicative
+    * well get along with the team. 
 * Since 2012 I participate as a volunteer in scout’s alpine skiing and snowboard camps 
 * Hobbies: 
     * hiking
