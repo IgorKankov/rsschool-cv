@@ -62,7 +62,7 @@ function maxNumber(n){
 
 
 ## Work experience: 
-* January 2020 - until nowadays, KindGeek - Front End Developer
+* January 2020 - until nowadays, [KindGeek](https://kindgeek.com/) - Front End Developer
 
 
 ## Languages: 
