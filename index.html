@@ -2,159 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV | Igor Kankov</title>
 </head>
 <body>
-<header>
-    <div class="avatar-block">
-        <img src="img/avatar.jpg" alt="avatar image">
-    </div>
-    <div class="personal-info">
-        <h1>
-            <bold>Igor Kankov</bold>
-        </h1>
-        <p>
-            <bold>Place of birth:</bold>
-            Minsk (Republic of Belarus)
-        </p>
-        <p>
-            <bold>Living place:</bold>
-            Lviv, Ukraine
-        </p>
-        <p>
-            <bold>Date of birth:</bold>
-            26.07.1989
-        </p>
-        <p>
-            <bold>Contact information:</bold>
-        <ul>
-            <li>+380(63)2114981</li>
-            <li>kankovigor@gmail.com</li>
-        </ul>
-        </p>
-    </div>
-</header>
-<main>
-    <section class="education-block">
-        <h2>
-            <bold>Education:</bold>
-        </h2>
-        <ul>
-            <li>2007-2012 Belarusian State University of Physical Culture Specialist in sphere of tourism and
-                hospitality
-            </li>
-        </ul>
-    </section>
-    <section class="basic-knowledge-block">
-        <h2>
-            <bold>Basic knowledge and experience in using:</bold>
-        </h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Ruby</li>
-            <li>Ruby on Rails</li>
-            <li>PhotoShop</li>
-        </ul>
-    </section>
-    <section class="courses-block">
-        <h2>
-            <bold>Additional education and courses:</bold>
-        </h2>
-        <ul>
-            <li>2019 Web-development introductory course (HTML, CSS, JavaScript), Soft Serve Academy, Lviv Ukraine</li>
-            <li>2019 JavaScript course, ITEA, Lviv Ukraine</li>
-            <li>2018 HTML, CSS, JavaScript on-line interactive course, <a href="https://www.freecodecamp.org">FreeCodeCamp</a>
-            </li>
-            <li>2017 Web-development introductory course (HTML, CSS, JavaScript), Logos IT Academy, Lviv Ukraine</li>
-            <li>2017 HTML, CSS, JavaScript on-line interactive course, <a href="http://www.htmlacademy.ru">HTML
-                Academy</a></li>
-            <li>2017 JavaScript on-line course, <a href="http://www.learn.javascript.ru">Learn JavaScript</a></li>
-            <li>2015 divers - lifeguard training course, Belarusian State Water Rescue Society</li>
-            <li>2014 snowboard instructor training course level С, Druskininkai Lithuania.</li>
-        </ul>
-    </section>
-    <section class="code-example-block">
-        <h2>
-            <bold>Code example:</bold>
-        </h2>
-        <code>
-            function lifePathNumber(dateOfBirth) { <br>
-                var num = dateOfBirth.split("-").join("");<br>
-
-                do{<br>
-                    num = (""+num).split("").reduce((p,c) => +p+ +c);<br>
-                } while(num > 9);<br>
-
-                return num;<br>
-            }<br>
-        </code>
-        <br>
-        <code>
-            function maxNumber(n){<br>
-                return Number(n.toString().split('').sort((a, b) => b - a).join(''))<br>
-            }
-        </code>
-    </section>
-    <section class="experience-block">
-        <h2>
-            <bold>Work experience:</bold>
-        </h2>
-        <ul>
-            <li>January 2020 - until nowadays, [KindGeek](https://kindgeek.com/) - Front End Developer</li>
-        </ul>
-    </section>
-    <section class="languages-block">
-        <h2>
-            <bold>Languages:</bold>
-        </h2>
-        <ul>
-            <li>Belarusian - Advanced</li>
-            <li>English - intermediate</li>
-            <li>Ukrainian - intermediate</li>
-            <li>Russian - Advanced</li>
-        </ul>
-    </section>
-    <section class="additional-info-block">
-        <h2>
-            <bold>Additional Information:</bold>
-        </h2>
-        <ul>
-            <li>
-                <h3>
-                    <bold>Character traits:</bold>
-                </h3>
+<div class="cv-container">
+    <header>
+        <div class="header-content">
+            <div class="avatar-block">
+                <img class="avatar" src="img/avatar.jpg" alt="avatar image">
+            </div>
+            <div class="personal-info">
+                <h1>Igor Kankov</h1>
+                <p>
+                    <strong>Place of birth:</strong>
+                    Minsk (Republic of Belarus)
+                </p>
+                <p>
+                    <strong>Living place:</strong>
+                    Lviv, Ukraine
+                </p>
+                <p>
+                    <strong>Date of birth:</strong>
+                    26.07.1989
+                </p>
+                <p>
+                    <strong>Contact information:</strong>
                 <ul>
-                    <li>easy to train</li>
-                    <li>non-conflicting</li>
-                    <li>executive</li>
-                    <li>communicative</li>
-                    <li>well get along with the team</li>
+                    <li>+380(63)2114981</li>
+                    <li>kankovigor@gmail.com</li>
                 </ul>
-            </li>
-            <li>
-                Since 2012 I participate as a volunteer in scout’s alpine skiing and snowboard camps
-            </li>
-            <li>
-                <h3>
-                    <bold>Hobbies:</bold>
-                </h3>
-                <ul>
-                    <li>hiking</li>
-                    <li>rock climbing</li>
-                    <li>wakeboarding</li>
-                    <li>snowboarding</li>
-                    <li>alpine skiing</li>
-                    <li>kayaking</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-</main>
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="education-block">
+            <h2>Education:</h2>
+            <ul>
+                <li>2007-2012 Belarusian State University of Physical Culture Specialist in sphere of tourism and
+                    hospitality
+                </li>
+            </ul>
+        </section>
+        <section class="basic-knowledge-block">
+            <h2>Basic knowledge and experience in using:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+                <li>PhotoShop</li>
+            </ul>
+        </section>
+        <section class="courses-block">
+            <h2>Additional education and courses:</h2>
+            <ul>
+                <li>2019 Web-development introductory course (HTML, CSS, JavaScript), Soft Serve Academy, Lviv Ukraine
+                </li>
+                <li>2019 JavaScript course, ITEA, Lviv Ukraine</li>
+                <li>2018 HTML, CSS, JavaScript on-line interactive course, <a href="https://www.freecodecamp.org">FreeCodeCamp</a>
+                </li>
+                <li>2017 Web-development introductory course (HTML, CSS, JavaScript), Logos IT Academy, Lviv Ukraine
+                </li>
+                <li>2017 HTML, CSS, JavaScript on-line interactive course, <a href="http://www.htmlacademy.ru">HTML
+                    Academy</a></li>
+                <li>2017 JavaScript on-line course, <a href="https://learn.javascript.ru/">Learn JavaScript</a></li>
+                <li>2015 divers - lifeguard training course, Belarusian State Water Rescue Society</li>
+                <li>2014 snowboard instructor training course level С, Druskininkai Lithuania.</li>
+            </ul>
+        </section>
+        <section class="code-example-block">
+            <h2>Code example:</h2>
+            <pre>
+            <code>
+                function lifePathNumber(dateOfBirth) {
+                    var num = dateOfBirth.split("-").join("");
+
+                    do{
+                        num = (""+num).split("").reduce((p,c) => +p+ +c);
+                    } while(num > 9);
+
+                    return num;
+                }
+            </code>
+            <code>
+                function maxNumber(n){
+                    return Number(n.toString().split('').sort((a, b) => b - a).join(''))
+                }
+            </code>
+            </pre>
+        </section>
+        <section class="experience-block">
+            <h2>Work experience:</h2>
+            <ul>
+                <li>January 2020 - until nowadays, <a href="https://kindgeek.com/">KindGeek</a> - Front End Developer
+                </li>
+            </ul>
+        </section>
+        <section class="languages-block">
+            <h2>Languages:</h2>
+            <ul>
+                <li>Belarusian - Advanced</li>
+                <li>English - intermediate</li>
+                <li>Ukrainian - intermediate</li>
+                <li>Russian - Advanced</li>
+            </ul>
+        </section>
+        <section class="additional-info-block">
+            <h2>Additional Information:</h2>
+            <ul>
+                <li>
+                    <h3>Character traits:</h3>
+                    <ul>
+                        <li>easy to train</li>
+                        <li>non-conflicting</li>
+                        <li>executive</li>
+                        <li>communicative</li>
+                        <li>well get along with the team</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    Since 2012 I participate as a volunteer in scout’s alpine skiing and snowboard camps
+                </li>
+                <li>
+                    <h3>Hobbies:</h3>
+                    <ul>
+                        <li>hiking</li>
+                        <li>rock climbing</li>
+                        <li>wakeboarding</li>
+                        <li>snowboarding</li>
+                        <li>alpine skiing</li>
+                        <li>kayaking</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <img class="rs-logo" src="img/rs_school_js_logo.svg" alt="RS School Logo">
+            <a href="https://rs.school/js/">RS School</a>
+            <a href="https://github.com/IgorKankov">Igor Kankov GitHub</a>
+            <span><strong>2021 &copy</strong></span>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
