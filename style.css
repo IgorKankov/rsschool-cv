@@ -1,7 +1,12 @@
 body {
     margin: 0;
+    font-family: "Noto Sans CJK JP";
 }
-
+a{
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: bold;
+}
 .cv-container {
     display: flex;
     flex-direction: column;

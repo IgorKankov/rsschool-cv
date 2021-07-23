@@ -70,35 +70,37 @@
                 </li>
                 <li>2017 HTML, CSS, JavaScript on-line interactive course, <a href="http://www.htmlacademy.ru">HTML
                     Academy</a></li>
-                <li>2017 JavaScript on-line course, <a href="http://www.learn.javascript.ru">Learn JavaScript</a></li>
+                <li>2017 JavaScript on-line course, <a href="https://learn.javascript.ru/">Learn JavaScript</a></li>
                 <li>2015 divers - lifeguard training course, Belarusian State Water Rescue Society</li>
                 <li>2014 snowboard instructor training course level С, Druskininkai Lithuania.</li>
             </ul>
         </section>
         <section class="code-example-block">
             <h2>Code example:</h2>
+            <pre>
             <code>
-                function lifePathNumber(dateOfBirth) { <br>
-                var num = dateOfBirth.split("-").join("");<br>
+                function lifePathNumber(dateOfBirth) {
+                    var num = dateOfBirth.split("-").join("");
 
-                do{<br>
-                num = (""+num).split("").reduce((p,c) => +p+ +c);<br>
-                } while(num > 9);<br>
+                    do{
+                        num = (""+num).split("").reduce((p,c) => +p+ +c);
+                    } while(num > 9);
 
-                return num;<br>
-                }<br>
-            </code>
-            <br>
-            <code>
-                function maxNumber(n){<br>
-                return Number(n.toString().split('').sort((a, b) => b - a).join(''))<br>
+                    return num;
                 }
             </code>
+            <code>
+                function maxNumber(n){
+                    return Number(n.toString().split('').sort((a, b) => b - a).join(''))
+                }
+            </code>
+            </pre>
         </section>
         <section class="experience-block">
             <h2>Work experience:</h2>
             <ul>
-                <li>January 2020 - until nowadays, [KindGeek](https://kindgeek.com/) - Front End Developer</li>
+                <li>January 2020 - until nowadays, <a href="https://kindgeek.com/">KindGeek</a> - Front End Developer
+                </li>
             </ul>
         </section>
         <section class="languages-block">
@@ -123,6 +125,7 @@
                         <li>well get along with the team</li>
                     </ul>
                 </li>
+                <br>
                 <li>
                     Since 2012 I participate as a volunteer in scout’s alpine skiing and snowboard camps
                 </li>
@@ -145,7 +148,7 @@
             <img class="rs-logo" src="img/rs_school_js_logo.svg" alt="RS School Logo">
             <a href="https://rs.school/js/">RS School</a>
             <a href="https://github.com/IgorKankov">Igor Kankov GitHub</a>
-            <span>2021 &copy</span>
+            <span><strong>2021 &copy</strong></span>
         </div>
     </footer>
 </div>
